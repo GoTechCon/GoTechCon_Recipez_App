@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6FB0441D2EBF3400A7CDFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FB0431D2EBF3400A7CDFF /* AppDelegate.swift */; };
+		DD6FB0461D2EBF3400A7CDFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6FB0451D2EBF3400A7CDFF /* ViewController.swift */; };
+		DD6FB0491D2EBF3400A7CDFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6FB0471D2EBF3400A7CDFF /* Main.storyboard */; };
+		DD6FB04C1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD6FB04A1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodeld */; };
+		DD6FB04E1D2EBF3400A7CDFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6FB04D1D2EBF3400A7CDFF /* Assets.xcassets */; };
+		DD6FB0511D2EBF3400A7CDFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6FB04F1D2EBF3400A7CDFF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD6FB0401D2EBF3400A7CDFF /* GoTechCon_Recipez_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTechCon_Recipez_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6FB0431D2EBF3400A7CDFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD6FB0451D2EBF3400A7CDFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD6FB0481D2EBF3400A7CDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6FB04B1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoTechCon_Recipez_App.xcdatamodel; sourceTree = "<group>"; };
+		DD6FB04D1D2EBF3400A7CDFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6FB0501D2EBF3400A7CDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6FB0521D2EBF3400A7CDFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6FB03D1D2EBF3400A7CDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6FB0371D2EBF3400A7CDFF = {
+			isa = PBXGroup;
+			children = (
+				DD6FB0421D2EBF3400A7CDFF /* GoTechCon_Recipez_App */,
+				DD6FB0411D2EBF3400A7CDFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6FB0411D2EBF3400A7CDFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FB0401D2EBF3400A7CDFF /* GoTechCon_Recipez_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6FB0421D2EBF3400A7CDFF /* GoTechCon_Recipez_App */ = {
+			isa = PBXGroup;
+			children = (
+				DD6FB0431D2EBF3400A7CDFF /* AppDelegate.swift */,
+				DD6FB0451D2EBF3400A7CDFF /* ViewController.swift */,
+				DD6FB0471D2EBF3400A7CDFF /* Main.storyboard */,
+				DD6FB04D1D2EBF3400A7CDFF /* Assets.xcassets */,
+				DD6FB04F1D2EBF3400A7CDFF /* LaunchScreen.storyboard */,
+				DD6FB0521D2EBF3400A7CDFF /* Info.plist */,
+				DD6FB04A1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodeld */,
+			);
+			path = GoTechCon_Recipez_App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6FB03F1D2EBF3400A7CDFF /* GoTechCon_Recipez_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6FB0551D2EBF3400A7CDFF /* Build configuration list for PBXNativeTarget "GoTechCon_Recipez_App" */;
+			buildPhases = (
+				DD6FB03C1D2EBF3400A7CDFF /* Sources */,
+				DD6FB03D1D2EBF3400A7CDFF /* Frameworks */,
+				DD6FB03E1D2EBF3400A7CDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoTechCon_Recipez_App;
+			productName = GoTechCon_Recipez_App;
+			productReference = DD6FB0401D2EBF3400A7CDFF /* GoTechCon_Recipez_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6FB0381D2EBF3400A7CDFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GoTechCon;
+				TargetAttributes = {
+					DD6FB03F1D2EBF3400A7CDFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2XQQ734Q75;
+					};
+				};
+			};
+			buildConfigurationList = DD6FB03B1D2EBF3400A7CDFF /* Build configuration list for PBXProject "GoTechCon_Recipez_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6FB0371D2EBF3400A7CDFF;
+			productRefGroup = DD6FB0411D2EBF3400A7CDFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6FB03F1D2EBF3400A7CDFF /* GoTechCon_Recipez_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6FB03E1D2EBF3400A7CDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6FB0511D2EBF3400A7CDFF /* LaunchScreen.storyboard in Resources */,
+				DD6FB04E1D2EBF3400A7CDFF /* Assets.xcassets in Resources */,
+				DD6FB0491D2EBF3400A7CDFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6FB03C1D2EBF3400A7CDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6FB04C1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodeld in Sources */,
+				DD6FB0461D2EBF3400A7CDFF /* ViewController.swift in Sources */,
+				DD6FB0441D2EBF3400A7CDFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD6FB0471D2EBF3400A7CDFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6FB0481D2EBF3400A7CDFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6FB04F1D2EBF3400A7CDFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6FB0501D2EBF3400A7CDFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6FB0531D2EBF3400A7CDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6FB0541D2EBF3400A7CDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6FB0561D2EBF3400A7CDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoTechCon_Recipez_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.GoTechCon-Recipez-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD6FB0571D2EBF3400A7CDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoTechCon_Recipez_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.GoTechCon-Recipez-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6FB03B1D2EBF3400A7CDFF /* Build configuration list for PBXProject "GoTechCon_Recipez_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6FB0531D2EBF3400A7CDFF /* Debug */,
+				DD6FB0541D2EBF3400A7CDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6FB0551D2EBF3400A7CDFF /* Build configuration list for PBXNativeTarget "GoTechCon_Recipez_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6FB0561D2EBF3400A7CDFF /* Debug */,
+				DD6FB0571D2EBF3400A7CDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD6FB04A1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD6FB04B1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodel */,
+			);
+			currentVersion = DD6FB04B1D2EBF3400A7CDFF /* GoTechCon_Recipez_App.xcdatamodel */;
+			path = GoTechCon_Recipez_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD6FB0381D2EBF3400A7CDFF /* Project object */;
+}
